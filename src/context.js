@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 
 
 const AppContext = React.createContext();
-export const API_URL= `http://www.omdbapi.com/?apikey=d72f8816`;
+export const API_URL= `http://www.omdbapi.com/?i=tt3896198&apikey=857ef2b8`;
 
 // we are getting the children and that is app component in our case
 const AppProvider = ({ children }) => {
